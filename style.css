@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #ffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Permite que a página tenha altura mínima de 100vh */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Garante que o contêiner principal ocupe toda a altura da viewport */
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    max-width: 80%;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #121212;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-decoration: none;
+    background-color: #121212;
+}
+
+.link p {
+    color: #ffff;
+    
+}
+
+
+.subtitle {
+    margin-bottom: 50px;
+}
+
+.contact {
+    margin-top: 4px; /* Adicionado espaçamento acima da div */
+   
+
+      
+}
+
+.contact .link {
+    display: flex;
+    flex-direction: column; /* Altera a direção dos itens para coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center;
+}
+
+.contact p {
+    margin-top: 29px;
+    font-family: "Roboto", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+}
